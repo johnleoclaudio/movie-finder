@@ -11,6 +11,7 @@
 .MF-list-item {
     width: 20%;
     margin: 0 5px;
+    cursor: pointer;
 }
 
 .MF-list-item:first-child {
