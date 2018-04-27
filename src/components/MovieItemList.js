@@ -8,7 +8,7 @@ const MovieItemList = ({ movies }) => {
             const movieInfo = { id, title, poster_path, overview };
             return <MovieItem key={result.id} movieInfo={movieInfo}/>
         });
-        return <ul>
+        return <ul className="MF-list">
             {MovieList}
         </ul>
     } else {

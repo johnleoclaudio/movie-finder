@@ -1,0 +1,23 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+.MF-list {
+    display: flex;
+    list-style-type: none;
+}
+
+.MF-list-item {
+    width: 20%;
+    margin: 0 5px;
+}
+
+.MF-list-item:first-child {
+    width: 20%;
+    margin: 0 5px 0 0;
+}
+
+.MF-list-item img {
+    height: 200px;
+}
