@@ -1,5 +1,6 @@
 import React, { Component, Fragment } from 'react';
 import MovieItemList from './MovieItemList';
+import SelectedMovie from './SelectedMovie';
 
 class App extends Component {
   state = {
@@ -33,6 +34,7 @@ class App extends Component {
 
   render() {
     return <Fragment>
+      <SelectedMovie movie={this.state.selectedMovie} trailer={this.state.trailer}/>
       <MovieItemList movies={this.state.movies.results} onItemClick={this.handleClick}/>
     </Fragment>
   }

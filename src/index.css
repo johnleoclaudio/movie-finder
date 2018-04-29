@@ -1,6 +1,30 @@
+body {
+    background: #000;
+}
+
 * {
     margin: 0;
     padding: 0;
+    font-family: 'Roboto', sans-serif;
+    color: #fff;
+}
+
+#root {
+    width: 1000px;
+    margin: 50px auto;
+}
+
+.MF-poster {
+    position: fixed;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    max-width: 100%;
+    max-height: 100%;
+    margin: auto;
+    overflow: auto;
+    z-index: -1000;
 }
 
 .MF-list {
@@ -23,6 +47,10 @@
 
 .MF-list-item img {
     height: 200px;
+}
+
+.MF-selected-movie {
+    display: flex;
 }
 
 /* Smartphones (portrait and landscape) ----------- */
