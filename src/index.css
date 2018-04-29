@@ -6,6 +6,8 @@
 .MF-list {
     display: flex;
     list-style-type: none;
+    flex-wrap: nowrap;
+    overflow-x: auto;
 }
 
 .MF-list-item {
@@ -21,4 +23,18 @@
 
 .MF-list-item img {
     height: 200px;
+}
+
+/* Smartphones (portrait and landscape) ----------- */
+@media only screen and (min-device-width : 320px) and (max-device-width : 674px) {
+    .MF-list-item {
+        width: 50%;
+        margin: 0 5px;
+        cursor: pointer;
+    }
+
+    .MF-list-item:first-child {
+        width: 50%;
+        margin: 0 5px 0 0;
+    }
 }
