@@ -25,7 +25,7 @@ class App extends Component {
   }
 
   changeTrailer = (data) => {
-    const trailerURLFetch = `http://api.themoviedb.org/3/movie/${data}/videos?api_key=${process.env.REACT_APP_API_KEY}`;
+    const trailerURLFetch = `https://api.themoviedb.org/3/movie/${data}/videos?api_key=${process.env.REACT_APP_API_KEY}`;
     fetch(trailerURLFetch)
         .then(result => result.json())
         .then(data => { this.setState({ trailer: data.results[0].key })})

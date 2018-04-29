@@ -1,6 +1,6 @@
 # Movie Finder React app
 Simple movie finder app made with TMDB API and React :heart:
-[Check it out!](https://johnleoclaudio.github.io/image-finder/)
+[Check it out!](https://johnleoclaudio.github.io/movie-finder/)
 
 ## Getting Started
 
