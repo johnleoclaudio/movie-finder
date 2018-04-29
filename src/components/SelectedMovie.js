@@ -9,8 +9,9 @@ export default ({ movie, trailer }) => {
             <p>{movie.overview}</p>
         </div>
         <div className="MF-movie-trailer">
-            <iframe width="560" height="315" src={trailerURL} frameBorder="0" allow="autoplay; encrypted-media" allowFullScreen="allowfullscreen" title=""></iframe>
+            <iframe width="560" height="315" src={trailerURL} frameBorder="0" allow="autoplay; encrypted-media" allowFullScreen="allowfullscreen" title={trailer}></iframe>
         </div>
+        <div className="MF-poster-overlay"></div>
         <img className="MF-poster" src={imgURL} alt=""/>
     </div>
 }
