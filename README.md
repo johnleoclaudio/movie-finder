@@ -1,5 +1,5 @@
 # Movie Finder React app
-Simple image finder app made with Pixabay API and React :heart:
+Simple movie finder app made with TMDB API and React :heart:
 [Check it out!](https://johnleoclaudio.github.io/image-finder/)
 
 ## Getting Started
